@@ -16,3 +16,17 @@ Este repositório contém a entrega do **desafio final do Bootcamp WEX**, com fo
 2. Instale as dependências:  
    ```bash
    pip install -r requirements.txt
+   ```
+3. Configure suas credenciais AWS (aws configure).
+
+4. Rode o script:
+   ```
+   python aws_poc_s3.py --bucket <nome-do-bucket> --region us-east-1
+   ```
+5. Para limpar recursos criados:
+   ```
+   python cleanup_s3.py --bucket <nome-do-bucket> --region us-east-1
+   ```
+
+## Autor
+Projeto desenvolvido por Enaile Lopes no Bootcamp WEX End to End - DIO.
